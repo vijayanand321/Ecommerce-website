@@ -1,0 +1,35 @@
+#card-items{
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+#card-items img{
+    height:150px ;
+    width: 90%;
+    height: 50%;
+    background-color: lightblue;
+    margin: 8px;
+    border-radius: 10px;
+    
+}
+
+#card_container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+   gap: 10px;
+   grid-template-rows: 300px;
+   width: 90%;
+   margin: 10px auto;
+
+}
+
+#card_details button{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+#card_details{
+    margin-left: 20px;
+}
